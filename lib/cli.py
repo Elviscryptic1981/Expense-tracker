@@ -1,5 +1,11 @@
 import click
-from models import SessionLocal, engine, Base, User, Transaction
+from models.models import SessionLocal, engine, Base, User, Transaction
+
+print("SessionLocal:", SessionLocal)
+print("engine:", engine)
+print("Base:", Base)
+print("User:", User)
+print("Transaction:", Transaction)
 
 Base.metadata.create_all(bind=engine)
 
