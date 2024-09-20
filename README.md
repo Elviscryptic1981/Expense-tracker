@@ -23,8 +23,8 @@ personal_finance_tracker/ │ ├── Pipfile ├── Pipfile.lock ├──
 ### Steps
 1. **Clone the repository**:
    ```bash
-   git clone <repository_url>
-   cd personal_finance_tracker
+   git clone <git@github.com:Elviscryptic1981/Expense-tracker.git>
+   cd Expense-tracker
 
 ### Install dependencies:
 pipenv install
